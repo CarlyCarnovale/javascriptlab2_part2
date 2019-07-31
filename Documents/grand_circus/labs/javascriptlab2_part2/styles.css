@@ -1,0 +1,63 @@
+body {
+    font-family: 'Maven Pro', sans-serif;
+}
+
+form {
+    background:  rgb(179,178,176, 0.6);
+    color: white;
+    border-radius: 5px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+}
+
+html {
+background-image: url("/assets/lab 2 background image.jpg");
+background-size: 100%;
+}
+
+input {
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #fff 
+}
+
+button {
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    width: 375px;
+}
+
+.info_container {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.classdiv {
+    background-color: lightgray;
+    position: relative;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.delete_btn {
+    border-radius: 5px;
+    
+
+}
+
+.fa-trash {
+    position: absolute;
+    bottom: -10px;
+    right: -10px;
+    background-color: white;
+    padding: 5px;
+    border-radius: 15px;
+}
