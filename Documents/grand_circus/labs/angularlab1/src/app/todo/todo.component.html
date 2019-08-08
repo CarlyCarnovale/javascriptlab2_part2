@@ -1,0 +1,13 @@
+<h2>TODO List</h2>
+<p>A place to store your todos</p>
+<input type="text" placeholder="Filter your to-dos" />
+<ol>
+   <li *ngFor="let todo of todoList; index as i">
+       {{i+1}}.
+       <button *ngIf="!todo.completed" class="complete">Complete</button>
+       <div class="todo-task" [class.completed-task]="todo.completed">{{ todo.task }}</div>
+       <button class="delete">X</button>
+   </li>
+</ol>
+<input type="text" placeholder="Add your to-do" />
+<button class="add">Add</button>

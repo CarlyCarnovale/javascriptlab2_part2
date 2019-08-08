@@ -1,0 +1,42 @@
+:host {
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    display: block;
+    background: white;
+    padding: 20px;
+}
+
+ol {
+    padding-inline-start: 0;
+}
+
+input {
+    width: 100%;
+    color: #bbb;
+}
+
+.complete {
+    color: #ff69b4;
+    border-color: #ff69b4;
+    border-radius: 5px;
+}
+
+.completed-task {
+    text-decoration: line-through;
+ }
+
+.todo-task {
+    flex: 1;
+}
+
+li {
+display: flex;
+padding: 3px;
+}
+
+.add {
+    background-color: #ff1493;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    
+}
